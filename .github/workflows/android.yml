@@ -25,7 +25,7 @@ jobs:
       - name: Prepare game
         run: |
           mkdir -p www
-                    cp "RT_TV_Arena_V9 (1).html" www/index.html
+                    cp RT_TV_Arena_V10*.html www/index.html
           npm init -y
           npm install @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
           npx cap init "RT TV Arena" com.rttvarena.game --web-dir www
